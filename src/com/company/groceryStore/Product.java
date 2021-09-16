@@ -21,8 +21,7 @@ public abstract class Product {
 
     @Override
     public String toString() {
-        String output = "| id: " + id + " | name: " + name + " | price: " + getDisplayPrice() + " | ";
-        return output;
+        return "| id: " + id + " | name: " + name + " | price: " + getDisplayPrice() + " | ";
     }
 
     public int getPrice() {
